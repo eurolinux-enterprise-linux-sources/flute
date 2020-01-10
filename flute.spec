@@ -1,6 +1,6 @@
 Name: flute
 Version: 1.3.0
-Release: 10.OOo31%{?dist}
+Release: 11.OOo31%{?dist}
 Summary: Java CSS parser using SAC
 # The entire source code is W3C except ParseException.java which is LGPLv2+
 License: W3C and LGPLv2+
@@ -54,6 +54,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_javadocdir}/%{name}
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.3.0-11.OOo31
+- Mass rebuild 2013-12-27
+
 * Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.3.0-10.OOo31
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
